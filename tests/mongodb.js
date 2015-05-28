@@ -2,20 +2,20 @@
 
 var fs = require('fs');
 var path = require('path');
-var BlackBox = require('../index.js');
+var FDR = require('../index.js');
 var dataPath = path.join('..', 'navdata', '2015-05-24 20-06.json');
 
 var conArgs = {
   "ip": "127.0.0.1",
   "port": "27017",
-  "db": "blackbox",
+  "db": "FDR",
   "collection": "flight1"
 };
 
 fs.exists(dataPath, function(exists) {
   if(exists) {
     fs.readFile(dataPath, "UTF-8", function(err, data) {
-      var bb = new BlackBox();
+      var bb = new FDR();
       var d;
       if(err) throw err;
       else {

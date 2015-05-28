@@ -1,14 +1,17 @@
 {
-  "name": "blackbox",
+  "name": "FDR",
   "version": "1.0.0",
-  "description": "A blackbox flight recorder for ar-drone.",
+  "description": "A FDR (flight data recorder) for ar-drone.",
   "main": "index.js",
   "scripts": {
     "run": "node index.js"
   },
   "keywords": [
     "Flight",
-    "recorder"
+    "data",
+    "recorder",
+    "ardrone",
+    "parrot"
   ],
   "author": "Neil Munro <neilmunro@gmail.com>",
   "license": "GPL-3.0",
