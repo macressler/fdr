@@ -1,6 +1,6 @@
 {
   "name": "blackbox",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A blackbox flight recorder for ar-drone.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "recorder"
   ],
   "author": "Neil Munro <neilmunro@gmail.com>",
-  "license": "BSD-2-Clause",
+  "license": "GPL-3.0",
   "dependencies": {
     "mongodb": "~2.0.33"
   }
