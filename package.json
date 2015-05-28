@@ -12,9 +12,7 @@
   ],
   "author": "Neil Munro <neilmunro@gmail.com>",
   "license": "BSD-2-Clause",
-  "private": true,
   "dependencies": {
-    "mongodb": "~2.0.33",
-    "redis": "~0.12.1"
+    "mongodb": "~2.0.33"
   }
 }
