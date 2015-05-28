@@ -14,6 +14,10 @@
     "parrot"
   ],
   "author": "Neil Munro <neilmunro@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nmunro/fdr.git"
+  }
   "license": "GPL-3.0",
   "dependencies": {
     "mongodb": "~2.0.33"
