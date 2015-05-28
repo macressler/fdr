@@ -27,7 +27,7 @@ The following should be enough to get anyone up and running with the basics of F
 
 ```js
 var ardrone = require("ar-drone");
-var FDR = require("FDR");
+var FDR = require("fdr");
 var client = ardrone.createClient();
 var bb = new FDR();
 

@@ -1,5 +1,5 @@
 {
-  "name": "FDR",
+  "name": "fdr",
   "version": "1.0.0",
   "description": "A FDR (flight data recorder) for ar-drone.",
   "main": "index.js",
